@@ -1,0 +1,5 @@
+./tk/philipchungtech/salvato/About.java
+./tk/philipchungtech/salvato/AdvancedSettings.java
+./tk/philipchungtech/salvato/Main.java
+./tk/philipchungtech/salvato/MainWindow.java
+./tk/philipchungtech/salvato/TickerTask.java

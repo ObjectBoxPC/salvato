@@ -1,0 +1,19 @@
+To build manually on the command line:
+
+1. Compile
+
+Run:
+
+java -d [another directory] @sources.txt
+
+It is recommended to place the build files in another directory to avoid extra files in the JAR.
+
+2. Copy Resources
+
+Copy the resources (/res, /VERSION.txt, /LICENSE.txt) to the new directory.
+
+3. Package
+
+Navigate to the new directory, then run:
+
+jar cmf [original directory]/manifest.txt Salvato.jar ./*
